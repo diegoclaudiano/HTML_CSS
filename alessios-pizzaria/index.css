@@ -22,3 +22,25 @@ body {
 a {
   color: var(--color-primary)
 }
+
+/* ============== cabeçalho/nav =============== */
+header {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  padding: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 700;
+}
