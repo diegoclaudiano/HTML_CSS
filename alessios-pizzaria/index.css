@@ -140,3 +140,11 @@ address > * {
   margin: 1.5rem;
   text-align: left;
 }
+
+/* ========================= FOOTER ========================= */
+footer {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  padding: 2rem;
+  text-align: center;
+}
