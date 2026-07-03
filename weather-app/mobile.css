@@ -1,0 +1,51 @@
+@media (max-width: 1024px) {
+  .app-container {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    grid-column-gap: 0;
+    grid-row-gap: 40px;
+  }
+
+  .weather-details-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+  }
+
+  .navbar-container>img {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .showcase-container {
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .showcase-container .showcase-text > h2:first-child {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2a394f;
+  }
+
+  .showcase-container .showcase-text > h2:last-child {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #2a394f;
+  }
+
+  .showcase-container .showcase-text > p {
+    margin-bottom: 10px;
+    font-size: 0.825rem;
+  }
+
+  .showcase-container > img {
+    width: 180px;
+  }
+}
