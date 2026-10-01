@@ -215,6 +215,21 @@
     margin-bottom: 20px;
 }
 
+.footer-container {
+    width: 100%;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.footer-container .social-items a {
+    margin-right: 25px;
+    color: inherit;
+    text-decoration: none;
+}
+
 /* ===== utilities ===== */
 .section-container {
     width: 100%;
