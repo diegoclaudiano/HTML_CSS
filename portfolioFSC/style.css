@@ -5,6 +5,15 @@
     font-family: "poppins", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* ===== Navbar ===== */
 .navbar-container {
     width: 100%;
@@ -13,7 +22,7 @@
     background-color:  rgba(0, 0, 0, 0.6);
     padding: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    position: absolute;
+    position: fixed;
     top: 0;
 }
 
@@ -54,12 +63,14 @@
     background-blend-mode: color;
 }
 
-.showcase-container > h1 {
+.showcase-container > h1,
+.sucesso > h1 {
     font-weight: 600;
     font-size: 4rem
 }
 
-.showcase-container > p {
+.showcase-container > p,
+.sucesso > p {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1rem;
@@ -70,6 +81,22 @@
     padding-right: 8px;
     letter-spacing: 0.15rem;
 
+}
+
+.sucesso {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url(./images/foto\ 1.1.jpeg);
+    background-size: cover;
+    background-position: center 30%;
+
+    /* overlay */
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
 }
 
 /* ===== about me ===== */
